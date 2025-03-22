@@ -246,7 +246,7 @@ baseline_attack_methods = {
         'alpha': 1.0,    # step size 
         'decay_factor': 1.0,          # decay factor
         'n': 10,          # decay factor
-        'feature_model': True,
+        'feature_model': True, #LBAP
     },
     'LBAP-MMix': {
         'max_iter': 10,            # iterations
