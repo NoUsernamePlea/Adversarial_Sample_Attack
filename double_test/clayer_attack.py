@@ -24,7 +24,7 @@ def main():
     dzoo = DatasetZoo()
     with open(attack_book, 'r') as fp:
         attack_targets = json.load(fp)
-
+	# 开始
     start = True 
     for mname in model_names:
         print('model {} generates adversarial examples...'.format(mname))
