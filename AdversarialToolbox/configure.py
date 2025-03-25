@@ -227,7 +227,7 @@ baseline_attack_methods = {
     'BAP': {
         'max_iter': 10,            # iterations
         'eps': 0.07,    # perturbation
-        'alpha': 1.0,    # step size 
+        'alpha': 1.0,    # step sizes 
         'decay_factor': 1.0,          # decay factor
         'n': 10,          # decay factor
         'feature_model': True,
