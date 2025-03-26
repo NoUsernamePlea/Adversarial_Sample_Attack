@@ -63,8 +63,9 @@ adv_image = attack(image, target_label)
 
 ### 保存结果
 save_image(adv_image, 'results/lbap_adv.png')
-
+```
 ### 在ImageNet验证集上测试ResNet50对DI-FGSM攻击的鲁棒性
+```bash
 python evaluate_attack.py \
   --model resnet50 \
   --attack lbap \
