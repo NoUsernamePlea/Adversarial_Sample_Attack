@@ -192,7 +192,7 @@ baseline_attack_methods = {
         'max_iter': 10,            # iterations
         'decay_factor': 1.0,          # decay factor
         'eps': 0.07,    # perturbation
-        'feature_model': False,
+        'feature_model': False, 
     },
     'SINI-FGSM': {
         'max_iter': 10,            # iterations
@@ -317,8 +317,8 @@ baseline_attack_methods = {
         'eps': 0.07,    # perturbation
         'alpha': 1.0,    # step size 
         'decay_factor': 1.0,          # decay factor
-        'n': 10,          # decay factor
-        'feature_model': True,
+        'n': 10,          # decay factor 
+        'feature_model': True, # LBAP-mixmix
     },
     'LBAP-concatenate': {
         'max_iter': 10,            # iterations
@@ -326,7 +326,7 @@ baseline_attack_methods = {
         'alpha': 1.0,    # step size 
         'decay_factor': 1.0,          # decay factor
         'n': 10,          # decay factor
-        'feature_model': True,
+        'feature_model': True, # LBAP-concatenate
     },
     'LBAP-Conv': {
         'max_iter': 10,            # iterations
@@ -334,7 +334,7 @@ baseline_attack_methods = {
         'alpha': 1.0,    # step size 
         'decay_factor': 1.0,          # decay factor
         'n': 10,          # decay factor
-        'feature_model': True,
+        'feature_model': True, #LBAP-Conv
     },
     'ENSLBAP': {
         'max_iter': 10,            # iterations
