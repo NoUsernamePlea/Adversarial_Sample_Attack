@@ -254,7 +254,7 @@ baseline_attack_methods = {
         'alpha': 1.0,    # step size 
         'decay_factor': 1.0,          # decay factor
         'n': 10,          # decay factor
-        'feature_model': True,
+        'feature_model': True, #LBAP-MMix
     },
     'LBAP-MConv': {
         'max_iter': 10,            # iterations
@@ -262,7 +262,7 @@ baseline_attack_methods = {
         'alpha': 1.0,    # step size 
         'decay_factor': 1.0,          # decay factor
         'n': 10,          # decay factor
-        'feature_model': True,
+        'feature_model': True, #LBAP-MConv
     },
     'LBAP-MMixConv': {
         'max_iter': 10,            # iterations
@@ -270,7 +270,7 @@ baseline_attack_methods = {
         'alpha': 1.0,    # step size 
         'decay_factor': 1.0,          # decay factor
         'n': 10,          # decay factor
-        'feature_model': True,
+        'feature_model': True, # LBAP-MMixConv
     },
     'LBAP-MConvMix': {
         'max_iter': 10,            # iterations
@@ -278,7 +278,7 @@ baseline_attack_methods = {
         'alpha': 1.0,    # step size 
         'decay_factor': 1.0,          # decay factor
         'n': 10,          # decay factor
-        'feature_model': True,
+        'feature_model': True, # LBAP-MConvMix
     },
     'LBAP-parallel': {
         'max_iter': 10,            # iterations
