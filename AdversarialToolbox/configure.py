@@ -568,7 +568,7 @@ baseline_attack_methods = {
     'DEM': {
         'max_iter': 10,            # iterations
         'decay_factor': 1.0,          # decay factor
-        'eps': 0.07,    # perturbation
+        'eps': 0.069,    # perturbation
         'feature_model': False,
     },
     'LINTDEM': {
